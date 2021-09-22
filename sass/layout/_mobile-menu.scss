@@ -1,0 +1,109 @@
+.mobile-menu{
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-white);
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    }
+.mobile-menu__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-bottom: 48px;
+}
+
+.mobile-menu__close-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+     fill: var(--accent-color);
+    }
+    }
+.mobile-menu__close-position{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+ 
+.mobile-menu__nav-link{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+  }
+}
+.mobile-menu__nav-item{
+    &:not(:last-child){
+       margin-bottom: 32px;
+}
+}
+.mobile-menu__aut{
+margin-bottom: 64px;
+}
+.mobile-menu__aut-item{
+margin-bottom: 32px;
+}
+.mobile-menu__aut-tell{
+font-weight: 500;
+font-size: 34px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+
+}
+.mobile-menu__aut-mail{
+font-weight: 500;
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: 0.02em;
+color: var(--paragraph-text-color);
+}
+.mobile-menu__social-link{
+display: flex;
+
+}
+.mobile-menu__social-list-link{
+font-weight: 500;
+font-size: 18px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.mobile-menu__social-link-item:not(:last-child){
+    margin-right: 10px;
+}
+.mobile-menu__social-link-item:not(:last-child)::after{
+    content: "";
+    width: 22px;
+    height: 0px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    margin-left: 10px;
+}
