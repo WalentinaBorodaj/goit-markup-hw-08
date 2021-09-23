@@ -210,11 +210,6 @@ body {
   align-items: center;
 }
 
-.nav__list {
-  display: flex;
-  align-items: center;
-}
-
 .nav__link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -230,10 +225,6 @@ body {
 .nav__ikon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.auth-nav__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .auto-nav__link {
