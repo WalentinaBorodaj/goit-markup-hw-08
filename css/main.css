@@ -151,6 +151,11 @@ body {
 
 .header__logo-accent {
   color: var(--color-black);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__logo-accent:hover, .header__logo-accent:focus {
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -205,6 +210,11 @@ body {
   align-items: center;
 }
 
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
 .nav__link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -220,6 +230,10 @@ body {
 .nav__ikon {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.auth-nav__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .auto-nav__link {
