@@ -131,8 +131,6 @@ body {
 }
 
 .header {
-  padding-top: 16px;
-  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -148,6 +146,8 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header__logo-accent {
@@ -160,10 +160,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding-top: 21px;
-    padding-bottom: 21px;
-  }
   .header__logo {
     margin-right: 88px;
   }
@@ -175,10 +171,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
-    padding-right: 215px;
   }
   .header__logo {
     margin-right: 93px;
@@ -191,6 +183,11 @@ body {
 
 .auth-nav {
   display: none;
+}
+
+.nav__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -497,8 +494,9 @@ body {
   margin-bottom: 30px;
   background-color: var(--background-button);
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advantages__item:not(:last-child) {
@@ -615,8 +613,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .team__item {
-    width: 354px;
-    height: 536px;
     margin-top: 30px;
     margin-left: 30px;
   }
@@ -636,10 +632,6 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .team__item {
-    width: 270px;
-    height: 428px;
-  }
   .section__title-team {
     font-size: 36px;
     line-height: 1.16;
@@ -654,6 +646,7 @@ body {
   border-color: transparent;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.9;
@@ -771,6 +764,9 @@ body {
     height: 70px;
     width: 100%;
     padding: 27px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

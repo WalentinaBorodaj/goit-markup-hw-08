@@ -1,6 +1,6 @@
 .header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
   }
 
@@ -16,6 +16,8 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
+  padding-top: 24px;
+  padding-bottom: 24px;
   }
 
 .header__logo-accent {
@@ -28,10 +30,10 @@
   }
   
 @media screen and (min-width: 768px){
-  .header {
-    padding-top: 21px;
-    padding-bottom: 21px;  
-  }
+  // .header {
+    // padding-top: 21px;
+    // padding-bottom: 21px;  
+  // }
   .header__logo {
    margin-right: 88px;
   }
@@ -42,10 +44,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
-    padding-right: 215px;
+    // padding-top: 24px;
+    // padding-bottom: 25px;
+    // padding-left: 215px;
+    // padding-right: 215px;
   }
   .header__logo {
     margin-right: 93px;

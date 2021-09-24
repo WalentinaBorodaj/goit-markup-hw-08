@@ -20,8 +20,11 @@
     margin-bottom: 30px;
     background-color: var(--background-button);
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 25px;
+    // padding-bottom: 25px;
   }
 .advantages__item{
   &:not(:last-child){
