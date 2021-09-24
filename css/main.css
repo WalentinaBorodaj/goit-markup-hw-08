@@ -167,7 +167,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .header {
-    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,6 +480,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   text-align: center;
+  font-size: 14px;
 }
 
 .advantages__text {
@@ -618,6 +618,9 @@ body {
   }
   .team__item:not(:last-child) {
     margin-bottom: 0;
+  }
+  .section__title-team {
+    font-size: 36px;
   }
   .team__list {
     display: flex;
