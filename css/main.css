@@ -295,7 +295,7 @@ body {
     color: var(--accent-color);
   }
   .current-studio::after {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     width: 48px;
@@ -308,7 +308,7 @@ body {
     color: var(--accent-color);
   }
   .current-portfolio::after {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     width: 78px;
@@ -428,7 +428,7 @@ body {
 }
 
 .mobile-menu__social-link-item:not(:last-child)::after {
-  content: "";
+  content: '';
   width: 22px;
   height: 0px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1122,12 +1122,19 @@ body {
   .footer__list:not(:last-child) {
     margin-bottom: 9px;
   }
-  .footer__list .footer__ikon-title {
+  .footer__ikon-title {
     margin-top: 60px;
+    text-align: left;
   }
   .footer__adress {
     margin-right: 70px;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__ikon-title {
+    text-align: center;
   }
 }
 
@@ -1192,7 +1199,7 @@ body {
 
 .form-footer__button:focus, .form-footer__button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .form-footer__icon {
@@ -1343,7 +1350,7 @@ body {
 
 .modal-form__checkbox-label::before {
   display: inline-block;
-  content: "";
+  content: '';
   width: 16px;
   height: 15px;
   cursor: pointer;
@@ -1388,6 +1395,6 @@ body {
 
 .modal-form__button:hover, .modal-form__button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 /*# sourceMappingURL=main.css.map */
