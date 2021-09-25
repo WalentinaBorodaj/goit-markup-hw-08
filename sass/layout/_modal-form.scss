@@ -70,16 +70,17 @@
   color: var(--accent-color);
   }
 .modal-form__checkbox-label{
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
+  display: inline-block;
   
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--paragraph-text-color);
-  margin-bottom: 30px;
+  margin:0 auto 30px;
    &::before{
-    display: block;
+    display: inline-block;
     content: "";
     width: 16px;
     height: 15px;
