@@ -88,3 +88,8 @@
       url(../images/fon2x.jpg);
   }
 }
+@media screen and (max-width: 479px){
+  .hero__title{
+    font-size: 6vw;
+  }  
+}

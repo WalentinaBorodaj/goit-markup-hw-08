@@ -88,6 +88,7 @@
     cursor: pointer;
     border: 2px solid var(--primary-text-color);
     margin-right: 7px;
+    vertical-align: middle;
   }
   .modal-form__checkbox:checked + &::before {
     padding: 3px;

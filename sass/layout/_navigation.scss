@@ -16,9 +16,7 @@
   .auto-nav {
     display: block;
   }
-  // .auto-nav__mail{
-  //   margin-bottom: 10px;
-  // }
+  
   .nav__item {
     &:not(:last-child) {
       margin-right: 50px;
@@ -29,10 +27,7 @@
   display: flex;
   align-items: center;
 }
-// .nav__list {
-//   display: flex;
-//   align-items: center;
-//   }
+
 .nav__link {
   display: block;
   color: var(--title-text-color);
@@ -45,24 +40,15 @@
     color: var(--accent-color);
   }
 }
-// .post{
-//   padding-top: 21px;
-// }
-// .tel{
-//   padding-bottom: 21px;
-// }
+
 
 .nav__ikon {
   fill: currentColor;
   margin-right: 10px;
 }
-// .auth-nav__item{
-//   &:not(:last-child) {
-//     margin-right: 50px;
-//     }
-// }
+
 .auto-nav__link {
-  padding: 32px 0;
+  // padding: 32px 0;
   color: var(--paragraph-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -94,7 +80,7 @@
   .tel {
     padding-bottom: 21px;
   }
-  .auto-nav__mail {
+  .auto-nav__email {
     margin-bottom: 10px;
   }
 }
