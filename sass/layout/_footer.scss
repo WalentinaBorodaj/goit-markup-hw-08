@@ -41,7 +41,7 @@
   }
 }
 .footer__list {
-  margin-top: 8px;
+  margin-top: 9px;
 }
 .footer__sociale-list {
   display: flex;
@@ -117,10 +117,8 @@
     margin-bottom: 0px;
   }
   .footer__list {
-    margin-top: 0px;
-    &:not(:last-child) {
-      margin-bottom: 9px;
-    }
+    margin-top: 9px;
+    
   }
   .footer__ikon-title {
     // margin-top: 60px;

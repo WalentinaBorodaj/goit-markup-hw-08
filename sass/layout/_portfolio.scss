@@ -119,3 +119,13 @@
 }
 
 }
+@media screen and (max-width:767px) {
+  .works__item :not(:last-child){
+   margin-bottom: 30px;
+   display: block;
+  }
+  .overlay {
+    padding-top: 30px;
+}
+  
+}

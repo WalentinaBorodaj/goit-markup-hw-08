@@ -48,7 +48,7 @@
 }
 
 .auto-nav__link {
-  // padding: 32px 0;
+  
   color: var(--paragraph-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -71,16 +71,15 @@
   .auto-nav__link {
     display: flex;
     align-items: center;
+    padding: 32px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .post {
-    padding-top: 21px;
-  }
-  .tel {
-    padding-bottom: 21px;
-  }
+  
   .auto-nav__email {
     margin-bottom: 10px;
+  }
+  .auto-nav__link{
+    display: block;
   }
 }
