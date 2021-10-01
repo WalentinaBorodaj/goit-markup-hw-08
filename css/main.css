@@ -1032,7 +1032,8 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .works__box :not(:last-child) {
+  .works__item:not(:last-child) {
+    display: block;
     margin-bottom: 30px;
   }
   .overlay {

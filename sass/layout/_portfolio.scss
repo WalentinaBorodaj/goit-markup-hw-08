@@ -92,13 +92,11 @@
   }
 }
 @media screen and (max-width: 767px) {
-  // .works__item {
-  //  display: block;
-  //  margin-bottom: 30px;
-  // }
-  .works__box :not(:last-child){
-    margin-bottom: 30px;
+  .works__item:not(:last-child){
+   display: block;
+   margin-bottom: 30px;
   }
+ 
   .overlay {
     padding-top: 30px;
     
